@@ -1,0 +1,33 @@
+body {
+  background-color:#ADD8E6;
+  
+}
+.center  {padding: 20px;
+    text-align: center;}
+    
+.card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+img {
+
+width: 90px;
+
+height: 90px;
+
+float: left;
+
+}
+
+#idCard {
+
+border: 5px solid black;
+border-radius: 25px;
+height: 14em;
+width: 25em;
+background-color: #FFB6C1;
+
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Einstein",
+    "birthdate": "March 14,1879",
+    "picture": [
+        {
+            "description":"link to photo",
+            "PIC":"PIC.jpg"
+        },
+        {
+            "description":"full bio",
+            "BIO":"Einstein.txt"
+        }
+    ]
+}

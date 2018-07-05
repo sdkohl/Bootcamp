@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Lesson 7 DOM</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="navbar">
+        <h1>
+            Please Enter Your First & Last Name
+        </h1>
+        <h2>Capitals required. Use multiple letters. No numbers</h2>
+        </div>
+    </div>
+    <div class="form-container">
+        <form class="form">
+            First name:<br>
+            <input id="first" type="text" name="firstname" placeholder="FIRST">
+            <br>
+            Last name:<br>
+            <input id="last" type="text" name="lastname" placeholder="LAST">
+            <br><br>
+            <button id=btn type="button" onclick="fullName()">Submit</button>
+          </form>
+    </div>
+    <p id="output">Full name here. </p>
+
+    <script src="script.js"></script>
+</body>
+</html>

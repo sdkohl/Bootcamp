@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.titleContainer {
+    border:solid;
+    color: black;
+    background-color:lightgray;
+    border-style: ridge;
+    border-width: thick;
+    margin:10px;
+    padding:10px;
+    font-size:4vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+Title {
+    display:flex;
+    background-color:white;
+    justify-content:center;
+    margin:10px;
+    padding:10px;
+}
+
+
+
+
+

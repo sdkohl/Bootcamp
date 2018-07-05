@@ -1,0 +1,82 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar with four nav tabs or pills*/
+/*one tab is a drop down menu*/
+/*add search box with glyphicon*/
+
+.nav-container {
+    display:flex;
+    color:white;
+    background-color:lightblue;
+    border: solid;
+    height: 150px;
+    padding: 10px;
+    
+}
+
+.navbar {
+    display:flex;
+    background-color:darkgreen;
+    width:1000px;
+    padding:10px;
+    align-content: space-between;
+    justify-content:space-between;
+    margin:auto;
+    
+}
+.glyphicon {
+    display:flex;
+    align-self: flex-start;
+}
+.glyphicon-sunglasses {
+    display:flex;
+    align-self:stretch;
+}
+.btn-secondary {
+    background-color: yellow;
+    color:black;
+}
+
+.below-nav {
+    display:flex;
+    margin:auto;
+    justify-content:center;
+}
+/*form with first name, last name, phone number, email*/
+form {
+    width: 500px;
+    float: left;
+    padding: 50px;
+  }
+  .form-container {
+    color: black;
+    background-color:rgb(194, 171, 41);
+    padding: 20px 0;
+    display:flex;
+    justify-content: center;
+}
+.form-group {
+    color: blue;
+    background-color:yellow;
+    
+}
+
+
+/*table with three columns and four rows*/
+.table-container {
+    color: white;
+    padding: 50px 0;
+    display:flex;
+    justify-content: space-around;
+    float:left;
+    margin-left: 30px;
+}
+.table {
+    width:400px;
+    padding: 20px;
+    background-color:green;
+}
+
